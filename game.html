@@ -18,13 +18,25 @@
     </nav>
   </header>
 
-  <section class="content quiz-box">
+ <section class="content quiz-container">
+
+  <h2>🌊 Sea Adventure Quiz</h2>
+  <p id="progress">Question 1 of 2</p>
+
+  <div class="quiz-box">
     <h3 id="question"></h3>
     <div id="answers"></div>
-    <p id="score"></p>
-    <button class="btn" onclick="nextQuestion()">Next Question</button>
-    <button class="btn" onclick="restartQuiz()">Restart Quiz</button>
-  </section>
+  </div>
+
+  <div class="quiz-actions">
+    <button class="btn" onclick="nextQuestion()">Next</button>
+    <button class="btn secondary" onclick="restartQuiz()">Restart Quiz</button>
+  </div>
+
+  <p id="score"></p>
+
+</section>
+
 
   <script src="script.js"></script>
   <footer>© 2025 Marina Travel</footer>

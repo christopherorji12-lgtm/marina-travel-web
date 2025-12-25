@@ -1,0 +1,10 @@
+body{margin:0;font-family:Segoe UI,Tahoma,sans-serif;background:#f5f9fc}
+.navbar{display:flex;justify-content:space-between;padding:15px 40px;background:#023e8a;color:#fff}
+.navbar a{color:white;margin-left:20px;text-decoration:none}
+.hero{padding:90px 20px;background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;color:white;text-align:center}
+.btn{background:#0077b6;color:white;padding:10px 20px;border:none;border-radius:4px}
+.content{max-width:1000px;margin:auto;padding:40px}
+.image-gallery{display:flex;gap:20px;justify-content:center;padding:40px}
+.image-gallery img{width:300px;border-radius:10px}
+.quiz-box{background:white;padding:30px;border-radius:8px}
+footer{text-align:center;padding:15px;background:#0077b6;color:white}

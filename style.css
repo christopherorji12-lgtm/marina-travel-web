@@ -65,3 +65,20 @@ footer{text-align:center;padding:15px;background:#0077b6;color:white}
     grid-template-columns: 1fr;
   }
 }
+.quiz-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.quiz-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn.secondary {
+  background: #adb5bd;
+  color: #003049;
+}

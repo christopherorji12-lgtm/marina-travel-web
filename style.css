@@ -8,3 +8,34 @@ body{margin:0;font-family:Segoe UI,Tahoma,sans-serif;background:#f5f9fc}
 .image-gallery img{width:300px;border-radius:10px}
 .quiz-box{background:white;padding:30px;border-radius:8px}
 footer{text-align:center;padding:15px;background:#0077b6;color:white}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-grid img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.about-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
